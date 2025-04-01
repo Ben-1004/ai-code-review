@@ -7,3 +7,13 @@ inputs:
   token:
     description: "github token"
     required: true
+  model:
+    description: "ai model"
+    required: true
+  api-key:
+    description: "openai api key"
+    required: true
+  system-prompt:
+    description: "system prompt"
+    required: false
+    default: "You are a helpful assistant reviewing PRs."
