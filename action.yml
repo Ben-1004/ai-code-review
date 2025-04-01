@@ -1,4 +1,4 @@
-name: "code review"
+name: "review"
 description: "Replying to participants"
 runs:
   using: "node20"
