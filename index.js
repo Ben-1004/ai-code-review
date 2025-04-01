@@ -53,7 +53,7 @@ async function run() {
         owner,
         repo,
         issue_number: prNum,
-        body: `🤖AI Review\n${aiResponse}`
+        body: `# 🤖AI Review\n${aiResponse}`
     });
 } catch (error) {
     core.setFailed(`Action failed with error: ${error.message}`);
